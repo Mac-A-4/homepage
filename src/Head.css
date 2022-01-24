@@ -1,0 +1,40 @@
+
+.Head-Outer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Head-Inner {
+    display: flex;
+}
+
+.Head-Left {
+    padding: 20px;
+    border-right: 1px dashed var(--light-2);
+    max-width: 500px;
+}
+
+.Head-Small-Text {
+    font-size: 16px;
+}
+
+.Head-Large-Text {
+    font-size: 40px;
+    color: var(--light-5);
+    text-shadow: 2px 2px var(--light-1);
+}
+
+.Head-Right {
+    padding: 20px;
+    border-left: 1px dashed var(--light-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Head-Link {
+    font-size: 24px;
+}
