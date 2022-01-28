@@ -22,6 +22,12 @@ export default function Head() {
                     </span>
                 </div>
                 <nav className="Head-Right">
+                    <a className="Head-Link" href="#about">
+                        About
+                    </a>
+                    <a className="Head-Link" href="#projects">
+                        Projects
+                    </a>
                     <a className="Head-Link" href="/Malcolm Alvarez Resume.pdf">
                         Resume
                     </a>
