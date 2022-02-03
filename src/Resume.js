@@ -9,7 +9,7 @@ export default function Resume() {
             <a className="Resume-Icon" href="/Malcolm Alvarez Resume.pdf">
                 <AiFillFilePdf/>
             </a>
-            (Click to Download)
+            (Click to View)
         </Section>
     );
 }
