@@ -1,0 +1,5 @@
+#!/bin/bash
+npm run build
+cd build
+cp -R * /var/www/html
+echo "Deployed!"
