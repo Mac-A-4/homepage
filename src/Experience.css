@@ -1,0 +1,35 @@
+
+.Experience-Entry-Outer {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Experience-Entry-Top {
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--dark-1);
+}
+
+@media only screen and (max-width: 700px) {
+    .Experience-Entry-Top {
+        font-size: 16px;
+    }
+}
+
+.Experience-Entry-List {
+    font-size: 16px;
+}
+
+.Experience-Entry-List li {
+    padding-top: 10px;
+}
+
+.Experience-Entry-Time {
+    padding-right: 10px;
+}
+
+.Experience-Entry-Name {
+    font-weight: bold;
+}

@@ -4,6 +4,7 @@ import './App.css';
 import Splash from './Splash';
 import Top from './Top';
 import Resume from './Resume';
+import Experience from './Experience';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Top/>
       <Splash/>
       <Resume/>
+      <Experience/>
     </div>
   );
 }

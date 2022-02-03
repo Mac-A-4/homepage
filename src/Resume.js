@@ -2,7 +2,6 @@ import './Resume.css';
 import Section from './Section';
 import {AiFillFilePdf} from 'react-icons/ai';
 
-
 export default function Resume() {
     return (
         <Section title="Resume" id="resume">
