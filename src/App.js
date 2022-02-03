@@ -1,13 +1,14 @@
-import Head from './Head.js';
-import About from './About.js';
-import './Var.css';
+import './Reset.css';
 import './App.css';
+
+import Splash from './Splash';
+import Top from './Top';
 
 export default function App() {
   return (
-    <div className="App-Div">
-      <Head/>
-      <About/>
+    <div>
+      <Top/>
+      <Splash/>
     </div>
   );
 }
