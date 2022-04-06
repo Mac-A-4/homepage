@@ -8,7 +8,7 @@ export default function Splash() {
                     Malcolm Alvarez
                 </div>
                 <div className="Splash-Body Fade">
-                    I love to write efficient, effective, beautiful software.
+                    Writing efficient, effective, beautiful solutions.
                 </div>
             </div>
         </div>
