@@ -21,6 +21,7 @@ export default function Top() {
                 <a className="Top-Link" href="#resume">Resume</a>
                 <a className="Top-Link" href="#experience">Experience</a>
                 <a className="Top-Link" href="#projects">Projects</a>
+                <a className="Top-Link" href="/CHN-001">CHN-001</a>
             </div>
         </div>
     );

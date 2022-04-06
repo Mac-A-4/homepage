@@ -1,4 +1,7 @@
 #!/bin/bash
+git clone https://github.com/Mac-A-4/CHN-001.git
+rm -rf CHN-001/.git
+cp -R CHN-001 public/CHN-001
 npm run build
 cd build
 cp -R * /var/www/html
